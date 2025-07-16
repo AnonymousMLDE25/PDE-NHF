@@ -99,7 +99,8 @@ optional arguments:
 ```
 
 `model_final`, `optimizer_final`, `training_loss_final` and `validation_loss_final` are saved after training. 
-Right now, there is a saved trained model in the subfolder called [models/model/](models/model/). Data generation (Step 1) is needed to test it.
+Right now, there is a saved trained model in the subfolder called [models/model/](models/model/). 
+Data generation (Step 1) with the above options is needed to test it.
 
 
 
