@@ -25,9 +25,10 @@ Install the following packages, using the pip command in a terminal with Python 
 
 
 
-## Generating and saving datasets
+## Generating and saving datasets (Step 1)
 
-All training datasets should be saved in the [data](data/) using a .npy extension.
+This is the first step for training and/or testing a model.
+All datasets should be saved in the [data](data/) folder using a .npy extension.
 A dataset can be created using the [generate_data.py](generate_data.py) file. To create a dataset, run
 
 ```commandline
@@ -63,7 +64,7 @@ initial positions and momenta are assumed to be centered.
 
 
 
-## Training a model
+## Training a model (Step 2)
 
 The [train.py](train.py) script takes care of performing the training.
 To start training, run
@@ -98,10 +99,11 @@ optional arguments:
 ```
 
 `model_final`, `optimizer_final`, `training_loss_final` and `validation_loss_final` are saved after training. 
+Right now, there is a saved trained model in the subfolder called [models/model/](models/model/). Data generation (Step 1) is needed to test it.
 
 
 
-## Post-process
+## Post-process (Step 3)
 
 You can assess the performance of the model with the Jupyter Notebook [post_process.ipynb](post_process.ipynb).
 
