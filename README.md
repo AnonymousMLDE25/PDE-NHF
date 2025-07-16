@@ -16,6 +16,8 @@ Install the following packages, using the pip command in a terminal with Python 
 
 - argparse
 
+- matplotlib
+
 
 ## Folders
 
