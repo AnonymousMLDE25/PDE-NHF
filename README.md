@@ -21,14 +21,14 @@ Install the following packages, using the pip command in a terminal with Python 
 
 - **[data](data/)**: This is where the training data should be saved.
 
-- **[models](model/)**: This is where the models should be saved.
+- **[models](model/)**: This is where the models should be saved, each one in a different folder.
 
 
 
 ## Generating and saving datasets (Step 1)
 
 This is the first step for training and/or testing a model.
-All datasets should be saved in the [data](data/) folder using a .npy extension.
+All datasets should be saved in a folder using a .npy extension.
 A dataset can be created using the [generate_data.py](generate_data.py) file. To create a dataset, run
 
 ```commandline
@@ -66,7 +66,7 @@ initial positions and momenta are assumed to be centered.
 
 ## Training a model (Step 2)
 
-The [train.py](train.py) script takes care of performing the training.
+The [train_model.py](train_model.py) script takes care of performing the training.
 To start training, run
 
 ```commandline
